@@ -1,8 +1,8 @@
 <template>
-  <div class="banner">
+  <section class="banner">
     <BannerImage/>
     <BannerDetail/>
-  </div>
+  </section>
 </template>
 
 <script>

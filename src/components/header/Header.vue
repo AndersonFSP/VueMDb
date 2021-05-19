@@ -22,7 +22,7 @@ export default {
    .cabecalho {
     display: flex;
     background-color: #000000;
-    padding: 0.5rem 0;
+    padding: 0.8rem 0;
     align-items: center;
     padding-left: 2rem;
     padding-right: 2rem;

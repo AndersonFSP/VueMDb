@@ -1,10 +1,7 @@
 <template>
-  <form class="form" @submit.prevent="">
+  <form class="form" @submit.prevent="searchMovies">
     <SearchBtn v-model="busca" placeholder="Search VueMDb.."/>
     <SearchSubmit/>
-    <!-- <button type="submit">
-      <i class="fa fa-search form__submit"></i>
-    </button> -->
   </form>
 </template>
 
@@ -22,6 +19,12 @@ export default {
 
     return {
       busca: ""
+    }
+  },
+
+  methods: {
+    searchMovies() {
+      this.$emit("searchMovies", this.busca)
     }
   }
 }

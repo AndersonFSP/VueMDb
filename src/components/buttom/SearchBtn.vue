@@ -16,10 +16,9 @@ export default {
     placeholder: String
     },
   data() {
-    return {
-      // content: this.value
-    }
+    return {}
   },
+  
   methods: {
     handleInput(value) {
       this.$emit('input', value)

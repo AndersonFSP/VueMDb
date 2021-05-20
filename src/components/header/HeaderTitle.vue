@@ -1,6 +1,8 @@
 <template>
   <div class="cabecalho__boxtitulo">
-    <h1>Vue<span>MDb</span></h1>
+    <router-link to="/">
+      <h1>Vue<span>MDb</span></h1>
+    </router-link>
   </div>
 </template>
 
@@ -16,7 +18,11 @@ export default {
     border-radius: 5%;
     padding: 4px;
 
-    & h1 {
+    a {
+      text-decoration: none;
+    }
+
+    h1 {
       color: #287a55;
 
       span {

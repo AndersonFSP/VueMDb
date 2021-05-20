@@ -7,7 +7,7 @@
 
 <script>
 import HeaderLogo from './HeaderLogo';
-import HeaderTitle from './HeaderTittle';
+import HeaderTitle from './HeaderTitle';
 
 export default {
   name: "AppHeader",
